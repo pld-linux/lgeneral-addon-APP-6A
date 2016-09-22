@@ -20,11 +20,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 LGeneral is a turn-based strategy engine heavily inspired by Panzer
-General. This package contains APP-6A mod for Panzer General data.
+General. This package contains APP-6A mod for Panzer General data. It
+tries to use the exact NATO (APP-6A) symbols and map style (replaces
+original graphics).
 
 %description -l pl.UTF-8
 LGeneral jest turową grą strategiczną zainspirowaną o Panzer General.
 Ten pakiet zawiera modyfikacje APP-6A dla danych gry Panzer General.
+Próbuje wykorzystywać dokładne symbole oraz styl map NATO (APP-6A),
+zastępując oryginalną grafikę.
 
 %prep
 %setup -q -n APP-6A
